@@ -3,9 +3,9 @@ import json
 import webbrowser
 from spotipy.oauth2 import SpotifyClientCredentials
 
-username = 'bxenci'
-clientID = 'c893d02a941c4fa29c077009d9946941'
-clientSecret = 'a0ffb6658ba941f49d04321aa8941f74'
+username = 'spotify-name'
+clientID = ''
+clientSecret = ''
 redirectURI = 'http://google.com/'
 
 oauth_object = spotipy.SpotifyOAuth(clientID,clientSecret,redirectURI)
