@@ -51,7 +51,7 @@ def sendEmail(to, content):
     server.ehlo()
     server.starttls()
     server.login('your-mail', 'mail-password')
-    server.sendmail('guneslikoray@gmail.com', to, content)
+    server.sendmail('your-mail', to, content)
     server.close()
 
 
